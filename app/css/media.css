@@ -1,0 +1,208 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1290px) {
+  .priceWrapper {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+}
+@media only screen and (max-width : 1200px) {
+.priceWrapper {
+  padding: 56px 80px;
+}
+.footer .adressBlock {
+  margin-top: 50px;
+}
+.footer .footerForm input:nth-child(2) {
+  width: 280px;
+}
+.notebookWrapper {
+  top: 560px;
+}
+.submitButton {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 250px;
+  margin-top: 25px;
+  text-align: center;
+}
+.firstStep::after, .thirdStep::after {
+  left: 160px !important
+}
+.secondStep::after {
+  left: 160px !important
+}
+.serviceWrapper p {
+  max-width: 300px;
+}
+
+.serviceWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.serviceWrapper h3 {
+  width: 100%;
+  text-align: center
+}
+
+.serviceWrapper::after {
+  left: 15px;
+  top: -10px;
+}
+.serviceWrapper .third::after {
+  left: 15px;
+  top: -10px;
+}
+.serviceWrapper .sixth::after {
+  left: 15px;
+  top: -10px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .serviceWrapper::after {
+    right: 0px;
+  }
+  .nav-bar {
+    position: relative;
+  }
+  .toggleMenu {
+    display: block;
+    margin-top: 25px;
+  }
+  .headerMenu {
+    position: absolute;
+    right: -85px;
+    top: 55px;
+  }
+  .headerMenu {
+    display: none;
+  }
+  .headerMenu li {
+    display: block;
+    background-color: orange;
+    white-space: nowrap;
+    margin-right: 0;
+    text-align: center;
+    padding: 3px 15px;
+  }
+  .headerMenu a {
+    color: #fff;
+  }
+  .footer .footerForm input {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .footer .footerForm .inputWrapper .icon {
+    left: -125px;
+    top: 12px;
+  }
+  .notebookWrapper {
+    top: 650px;
+  }
+  .header .submitButton {
+    margin-top: 50px;
+  }
+  .form .inputWrapper .icon {
+    top: 8px;
+    z-index: 2;
+  }
+  .form input {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .clients .clientWrapper {
+    margin: 0 auto 60px;
+  }
+  .stepWrapper p {
+     text-align: center;
+     display: inline-block;
+  }
+  .stepsBlock img {
+    margin-bottom: 30px;
+  }
+  .stepWrapper {
+    margin-bottom: 40px;
+  }
+.firstStep::after, .secondStep::after, .thirdStep::after {
+  display: none;
+}
+.about-us::after {
+  display: none;
+}
+.about-us {
+  background-color: #ffc155;
+  background-image: none;
+}
+.aboutSection {
+  margin: 0 auto;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .header .form {
+    padding-bottom: 150px;
+  }
+  .services {
+    padding-top: 60px;
+  }
+  .form {
+    padding-bottom: 30px;
+  }
+  .notebookWrapper {
+    display: none;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+  .button {
+    padding: 13px 30px;
+  }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
